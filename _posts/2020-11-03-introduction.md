@@ -110,7 +110,7 @@ cut.plot_audio()
 
 
 
-![png](lhotse-introduction_files/output_11_1.png)
+![png](/images/lhotse-introduction_files/output_11_1.png)
 
 
 ```python
@@ -125,7 +125,7 @@ cut.pad(duration=20).plot_audio()
 
 
 
-![png](lhotse-introduction_files/output_12_1.png)
+![png](/images/lhotse-introduction_files/output_12_1.png)
 
 
 ```python
@@ -140,7 +140,7 @@ cut.truncate(duration=10).plot_audio()
 
 
 
-![png](lhotse-introduction_files/output_13_1.png)
+![png](/images/lhotse-introduction_files/output_13_1.png)
 
 
 More advanced operations: cut mixing.
@@ -152,11 +152,11 @@ mixed.plot_tracks_audio();
 ```
 
 
-![png](lhotse-introduction_files/output_15_0.png)
+![png](/images/lhotse-introduction_files/output_15_0.png)
 
 
 
-![png](lhotse-introduction_files/output_15_1.png)
+![png](/images/lhotse-introduction_files/output_15_1.png)
 
 
 Mixing two cuts with a specified SNR.
@@ -168,11 +168,11 @@ mixed.plot_tracks_audio();
 ```
 
 
-![png](lhotse-introduction_files/output_17_0.png)
+![png](/images/lhotse-introduction_files/output_17_0.png)
 
 
 
-![png](lhotse-introduction_files/output_17_1.png)
+![png](/images/lhotse-introduction_files/output_17_1.png)
 
 
 ## Feature extraction
@@ -217,7 +217,7 @@ cut.plot_features()
 
 
 
-![png](lhotse-introduction_files/output_21_1.png)
+![png](/images/lhotse-introduction_files/output_21_1.png)
 
 
 With the feature extractors that support it, we can perform dynamic feature-domain mix, by pre-computing the features for individual cuts first, and mixing them in the feature domain once they are loaded into memory.
@@ -238,7 +238,7 @@ mixed.plot_features()
 
 
 
-![png](lhotse-introduction_files/output_23_1.png)
+![png](/images/lhotse-introduction_files/output_23_1.png)
 
 
 ## PyTorch Datasets
